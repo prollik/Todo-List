@@ -1,0 +1,129 @@
+body{
+    background-color: #aaaaaa;
+}
+
+
+.all{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*margin: auto;*/
+    /*margin-top: 100px;*/
+    /*margin-left: 650px;*/
+    z-index: 150;
+    display: none;
+    border-radius: 10px ;
+    background-color: #bbbbbb;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+    width: 500px;
+    height: 300px;
+}
+
+
+#filter{
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 100;
+    display: none;
+    position: fixed;
+}
+
+.blok1{
+    border: 1px solid black;
+    background-color: #0f0f0f;
+    height: 100vh;
+    width: 150px;
+    top: 0;
+    position: fixed;
+    /*max-height: 1200px*/
+}
+
+
+#add1{
+    /*margin-top: -150px;*/
+    margin-right: 150px;
+    float: right;
+    height: 50px;
+    width: 100px;
+    border-radius: 20px ;
+    background-color: dodgerblue;
+    color: white;
+    /*position: fixed;*/
+}
+
+#divI{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*background-color: #d9534f;*/
+    width: 500px;
+}
+
+#inpI{
+    border-radius: 20px/20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+    width: 400px;
+    height: 40px;
+    /*margin-top: 0px;*/
+    margin-left: 45px;
+    position: fixed;
+}
+
+#add{
+    position: relative;
+    margin-top: 80px;
+    margin-left: 400px;
+}
+
+
+.rem{
+    background: #9acfea;
+    border-radius: 4px;
+    margin-left: 10px;
+    height: 20px;
+}
+
+.rem1{
+    background: #d9534f ;
+    border-radius: 4px;
+    margin: 5px;
+    color: white;
+}
+
+li{
+    margin: 20px;
+    background-color: white;
+    text-align: left;
+}
+
+#pI{
+    margin-left: 150px;
+}
+
+
+
+.allb{
+    width: 380px;
+    /*border: 2px solid black;*/
+    display: flex;
+    margin-left: 55px;
+    margin-top: 80px;
+}
+
+.pCl{
+    margin: 15px;
+}
+
+.radio{
+    /*margin-top: 5px;*/
+}
+
+
+
+
+
